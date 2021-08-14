@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a,i=0,temp,count=0,j;
+  int arr[100];
+  printf("enter the number : ");
+  scanf("%d",&a);
+  temp=a;
+
+  while(temp>0)
+  {
+    int rem=0;
+    rem=temp%10;
+    arr[i]=rem;
+    printf("%d",arr[i]);
+    count++;
+    i++;
+    temp=temp/10;
+    
+  }
+  for(j=0;j<count;j++)
+  {
+    for(k=0;k<)
+  }
+  
+  
+  
+
+
+}
